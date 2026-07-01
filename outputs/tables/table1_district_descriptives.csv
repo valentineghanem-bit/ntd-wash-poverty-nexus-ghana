@@ -1,0 +1,12 @@
+variable,n,mean,sd,median,q1,q3,min,max,skew,resolution
+Poverty incidence (%),261,27.59,13.45,25.8,17.6,36.0,6.3,68.6,0.61,district
+Poverty intensity (%),261,43.44,1.74,43.1,42.2,44.3,40.5,51.2,1.2,district
+Literacy rate (%),261,71.02,14.74,73.12,59.48,82.13,39.16,94.59,-0.48,district
+Uninsured (%),261,30.95,13.51,30.19,20.33,40.74,5.23,73.17,0.28,district
+Non-employment share (%),261,50.66,8.16,49.29,45.3,53.42,36.01,84.5,1.22,district
+Dependency ratio (%),261,69.4,13.88,69.05,62.53,75.84,29.64,111.6,0.34,district
+"Improved water (%, region)",261,87.8,11.13,90.2,86.4,96.7,57.5,98.5,-1.36,region-broadcast
+"Improved sanitation (%, region)",261,62.01,22.44,69.8,49.1,81.4,20.5,91.2,-0.61,region-broadcast
+"Open defecation (%, region)",261,24.82,24.75,11.8,6.3,44.0,4.9,73.6,1.02,region-broadcast
+"Female literacy (%, region)",261,59.74,14.04,61.5,51.0,72.0,27.2,79.2,-0.64,region-broadcast
+Total population,261,118051.52,67972.23,100851.0,73330.0,140264.0,28179.0,443945.0,1.81,district

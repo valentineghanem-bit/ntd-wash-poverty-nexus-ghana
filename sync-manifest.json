@@ -1,0 +1,14 @@
+{
+  "study_title": "Spatial epidemiology of neglected tropical diseases and the WASH\u2013pover...",
+  "authors": "Valentine Golden Ghanem",
+  "affiliations": "COCOBOD / University of Cape Coast, Ghana",
+  "study_period": "2021\u20132022 (Census 2021, DHS 2022)",
+  "geographic_scope": "261 districts (MMDAs), Ghana",
+  "sample_size_N": "261",
+  "primary_outcome": "NTD WASH-Poverty Receptivity + documented NTD-belt membership",
+  "primary_result": "Logistic AUC 0.90 (district-only 0.87); Moran's I 0.66, p=0.001",
+  "top_finding_1": "31 High-High receptivity hotspots; 100% within documented NTD poverty-belt",
+  "top_finding_2": "Buruli ulcer environmental exception (poverty 17.6% vs 33.0% in belt)",
+  "reporting_guideline": "STROBE + RECORD + TRIPOD+AI",
+  "target_journal": "PLOS NTDs / Infectious Diseases of Poverty / BMC Infect Dis"
+}

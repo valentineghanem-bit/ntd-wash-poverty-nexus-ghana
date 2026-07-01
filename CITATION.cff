@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+title: "Spatial Epidemiology of NTDs and the WASH–Poverty Nexus in Ghana"
+message: "If you use this software or dataset, please cite it as below."
+type: software
+authors:
+  - given-names: "Valentine Golden"
+    family-names: "Ghanem"
+    affiliation: "COCOBOD / University of Cape Coast, Ghana"
+repository-code: "https://github.com/valentineghanem-bit/ntd-wash-poverty-nexus-ghana"
+license: MIT
+keywords: [neglected tropical diseases, WASH, poverty, spatial epidemiology, LISA, machine learning, Ghana]
+date-released: 2026-07-01

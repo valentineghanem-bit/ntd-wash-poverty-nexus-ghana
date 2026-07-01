@@ -1,0 +1,4 @@
+model,AUC_pooledOOF,bal_acc,sensitivity,specificity,Brier
+Logistic (L2),0.902,0.809±0.111,0.847,0.603,0.123
+Random Forest,0.822,0.721±0.241,0.773,0.468,0.199
+CART,0.647,0.676±0.183,0.752,0.400,0.347

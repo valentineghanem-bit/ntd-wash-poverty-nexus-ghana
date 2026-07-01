@@ -1,0 +1,7 @@
+dashboard/*.html linguist-generated
+poster/*.html linguist-generated
+*.geojson linguist-generated
+outputs/** linguist-generated
+data/raw/** linguist-vendored
+*.md linguist-documentation
+*.csv linguist-detectable=false

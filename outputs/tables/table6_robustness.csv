@@ -1,0 +1,5 @@
+check,value,interpretation
+genuine-district AUC (real),0.866,district socioeconomic data predicts NTD belt
+permutation null mean (200x),0.496,chance level; 95th percentile 0.568; empirical p 0.000
+south-only AUC (n=206),0.737,identifies southwest oncho belt WITHIN south -> beyond north/south divide
+oncho-only anchor AUC,0.866,robust to anchor definition (vs combined belt)

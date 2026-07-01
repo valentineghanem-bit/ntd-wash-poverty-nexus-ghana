@@ -1,0 +1,114 @@
+[
+ {
+  "name": "AHAFO",
+  "short": "Ahafo",
+  "v": 24.7,
+  "lisa": "LL",
+  "x": 11.8
+ },
+ {
+  "name": "ASHANTI",
+  "short": "Ashanti",
+  "v": 18.2,
+  "lisa": "LL",
+  "x": 9.3
+ },
+ {
+  "name": "BONO",
+  "short": "Bono",
+  "v": 17.1,
+  "lisa": "NS",
+  "x": 13.0
+ },
+ {
+  "name": "BONO EAST",
+  "short": "Bono E",
+  "v": 24.1,
+  "lisa": "NS",
+  "x": 44.0
+ },
+ {
+  "name": "CENTRAL",
+  "short": "Central",
+  "v": 22.5,
+  "lisa": "LL",
+  "x": 12.7
+ },
+ {
+  "name": "EASTERN",
+  "short": "Eastern",
+  "v": 21.6,
+  "lisa": "LL",
+  "x": 5.7
+ },
+ {
+  "name": "GREATER ACCRA",
+  "short": "Gr.Accra",
+  "v": 11.7,
+  "lisa": "NS",
+  "x": 4.9
+ },
+ {
+  "name": "NORTHERN",
+  "short": "Northern",
+  "v": 38.4,
+  "lisa": "HH",
+  "x": 70.6
+ },
+ {
+  "name": "NORTHERN EAST",
+  "short": "N.East",
+  "v": 48.1,
+  "lisa": "HH",
+  "x": 64.2
+ },
+ {
+  "name": "OTI",
+  "short": "Oti",
+  "v": 40.8,
+  "lisa": "NS",
+  "x": 50.6
+ },
+ {
+  "name": "SAVANNAH",
+  "short": "Savannah",
+  "v": 49.4,
+  "lisa": "HH",
+  "x": 73.6
+ },
+ {
+  "name": "UPPER EAST",
+  "short": "Upper East",
+  "v": 42.9,
+  "lisa": "HH",
+  "x": 71.3
+ },
+ {
+  "name": "UPPER WEST",
+  "short": "Upper West",
+  "v": 37.2,
+  "lisa": "HH",
+  "x": 56.4
+ },
+ {
+  "name": "VOLTA",
+  "short": "Volta",
+  "v": 27.3,
+  "lisa": "NS",
+  "x": 21.7
+ },
+ {
+  "name": "WESTERN",
+  "short": "Western",
+  "v": 25.6,
+  "lisa": "NS",
+  "x": 9.6
+ },
+ {
+  "name": "WESTERN NORTH",
+  "short": "W.North",
+  "v": 28.2,
+  "lisa": "LL",
+  "x": 6.3
+ }
+]

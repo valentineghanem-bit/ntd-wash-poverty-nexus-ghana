@@ -1,0 +1,4 @@
+model,AUC_genuine_only
+Logistic (L2),0.866
+Random Forest,0.85
+CART,0.785

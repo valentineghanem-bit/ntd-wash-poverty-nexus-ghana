@@ -1,0 +1,11 @@
+feature,importance
+"Sanitation deficit (%, region)",0.393
+"Open defecation (%, region)",0.253
+"Improved-water deficit (%, region)",0.148
+Literacy (%),0.07
+Urbanicity (z),0.043
+Poverty incidence (%),0.029
+Non-employment (%),0.021
+Uninsured (%),0.019
+Dependency ratio (%),0.016
+log(population),0.007

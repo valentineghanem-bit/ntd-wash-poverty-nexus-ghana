@@ -1,0 +1,41 @@
+variable,definition,source,survey_year,units,resolution,range,transform,missing
+district_id,Sequential district identifier,Derived,2026,integer,district,1.00–261.00,assigned,0
+district,MMDA name (Metropolitan/Municipal/District Assembly),Ghana Statistical Service,2021 PHC,text,district,,—,0
+region,"Administrative region (16, post-2022)",Ghana Statistical Service,2021 PHC,text,region,,mapped to geojson,0
+urban_rural_class,MMDA administrative class (Metropolitan/Municipal/District),GSS,2021 PHC,category,district,,—,0
+lat,District centroid latitude,GSS,2021 PHC,degrees,district,4.85–11.09,—,0
+lon,District centroid longitude,GSS,2021 PHC,degrees,district,-3.07–1.07,—,0
+total_pop,Total population,GSS,2021 PHC,persons,district,28179.00–443945.00,—,0
+poverty_incidence,Multidimensional poverty incidence (Alkire-Foster),GSS,2021 PHC,%,district,6.30–68.60,—,0
+poverty_intensity,Multidimensional poverty intensity (Alkire-Foster),GSS,2021 PHC,%,district,40.50–51.20,—,0
+illiteracy_rate,Illiterate population share (whole-population; age-confounded),GSS,2021 PHC,%,district,5.41–60.84,illiterate/total×100,0
+literacy_rate,Population literacy proxy,GSS,2021 PHC,%,district,39.16–94.59,100−illiteracy,0
+uninsured_rate,Uninsured population share (NHIS non-enrolment),GSS,2021 PHC,%,district,5.23–73.17,uninsured/total×100,0
+non_employment_share,Non-employed share of labour-force-classified population (NOT ILO unemployment),GSS,2021 PHC,%,district,36.01–84.50,unemployed/(emp+unemp)×100,0
+dependency_ratio,Age dependency ratio ((0-14 + 65+)/15-64),GSS,2021 PHC,%,district,29.64–111.60,—,0
+admin_urban_class,Administrative-urban flag (Metro/Municipal=1),GSS,2021 PHC,0/1,district,0.00–1.00,binary map,0
+geojson_district,Matched 260-polygon district name (map join),GSS/DHIS2 boundary set,2022,text,district,,crosswalk; 3 gap districts→parent,0
+gap_merged_for_map,Flag: district merged to parent polygon for mapping only,Derived,2026,0/1,district,0.00–1.00,—,0
+improved_water_pct_rgnbc,"Population using an improved water source (region, broadcast)",DHS Program,GDHS 2022,%,region→district,57.50–98.50,region value broadcast,0
+surface_water_pct_rgnbc,"Population using surface water (region, broadcast)",DHS Program,GDHS 2022,%,region→district,0.40–38.80,broadcast,0
+water_over30min_pct_rgnbc,"Population >30 min round-trip to water (region, broadcast)",DHS Program,GDHS 2022,%,region→district,0.20–27.50,broadcast,0
+improved_sanitation_pct_rgnbc,"Population with improved sanitation (region, broadcast)",DHS Program,GDHS 2022,%,region→district,20.50–91.20,broadcast,0
+open_defecation_pct_rgnbc,"Population practising open defecation (region, broadcast)",DHS Program,GDHS 2022,%,region→district,4.90–73.60,broadcast,0
+female_literacy_pct_rgnbc,"Adult women literate (region, broadcast)",DHS Program,GDHS 2022,%,region→district,27.20–79.20,broadcast,0
+male_literacy_pct_rgnbc,"Adult men literate (region, broadcast)",DHS Program,GDHS 2022,%,region→district,50.60–93.90,broadcast,0
+area_km2,District polygon area,GSS/DHIS2 boundary set,2022,km²,district,1.58–7794.20,m²→km²,0
+pop_density,Population per km²,GSS + geojson area,2021/2022,persons/km²,district,6.30–59943.20,total_pop/area,0
+density_approx_flag,Flag: pop density approximate (gap district shares parent area),Derived,2026,0/1,district,0.00–1.00,—,0
+urbanicity_z,Urbanicity = standardised log population density,Derived (GSS + geojson area),2021/2022,z-score,district,-2.21–3.52,log then z,0
+san_deficit,Sanitation deficit = 100 − improved sanitation,DHS Program,GDHS 2022,%,region→district,8.80–79.50,100−improved,0
+water_deficit,Improved-water deficit = 100 − improved water,DHS Program,GDHS 2022,%,region→district,1.50–42.50,100−improved,0
+nwpri_equal,NWPRI equal-weighted z-score (sensitivity),Derived,2026,z-score,district,-1.02–2.17,mean of z,0
+nwpri_pca,"NTD WASH-Poverty Receptivity Index (PCA PC1, primary)",Derived,2026,z-score,district,-1.31–2.51,PCA of 5 components,0
+nwpri_pc1_var,Variance explained by NWPRI PC1,Derived,2026,proportion,dataset,0.60–0.60,PCA,0
+genuine_dep_pca,Genuine-district deprivation composite (PC1 of poverty/illiteracy/uninsured),Derived,2026,z-score,district,-1.62–2.62,PCA,0
+oncho_highrisk,Onchocerciasis high-risk region (Ahiadorme 2026 zones),Literature,2026,0/1,region→district,0.00–1.00,mapped,0
+trachoma_hist_endemic,Historical trachoma endemic belt (pre-2018 elimination),WHO 2018 + literature,2018,0/1,region→district,0.00–1.00,literature,0
+ntd_pov_belt,"Documented poverty-associated NTD belt (oncho/trachoma), external anchor",WHO-ESPEN + literature (Ahiadorme 2026),2024-2026,0/1,region→district,0.00–1.00,literature-ecological,0
+ntd_anchor_resolution,Resolution flag of NTD anchor,Derived,2026,text,—,,—,0
+ntd_anchor_confidence,Confidence flag of NTD anchor,Derived,2026,text,—,,—,0
+buruli_focus,Documented Buruli ulcer district focus (environmental),Kenu 2014; Ablordey 2015,2014-2015,0/1,district,0.00–1.00,literature,0

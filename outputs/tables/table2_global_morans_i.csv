@@ -1,0 +1,7 @@
+variable,morans_I,E[I],z,p_sim,primary
+Deprivation (district PC1),0.663,-0.004,15.88,0.001,Yes
+NWPRI (PC1),0.928,-0.004,22.1,0.001,
+Poverty incidence (%),0.664,-0.004,16.02,0.001,
+"Open defecation (%, region)",0.963,-0.004,23.0,0.001,
+"Sanitation deficit (%, region)",0.938,-0.004,23.07,0.001,
+Uninsured (%),0.468,-0.004,11.36,0.001,

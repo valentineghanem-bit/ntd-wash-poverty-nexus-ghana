@@ -4,7 +4,7 @@
 
 A reproducible, district-level (261 MMDA) analysis of the WASH–poverty **NTD-receptivity** surface across Ghana, its spatial clustering, and an interpretable machine-learning model predicting documented NTD endemicity from socioeconomic determinants.
 
-**Author:** Valentine Golden Ghanem · Ghana COCOBOD Cocoa Clinic, Accra, Ghana; University of Cape Coast (PhD candidate) · ORCID [0009-0002-8332-0220](https://orcid.org/0009-0002-8332-0220) · valentineghanem@gmail.com
+**Author:** Valentine Golden Ghanem · Ghana COCOBOD Cocoa Clinic, Accra, Ghana · ORCID [0009-0002-8332-0220](https://orcid.org/0009-0002-8332-0220) · valentineghanem@gmail.com
 
 ## 1. Overview
 Neglected tropical diseases (NTDs) are diseases of poverty. This study maps a district-level composite **NTD WASH–Poverty Receptivity Index (NWPRI)**, tests for spatial clustering (Global/Local Moran's I, relative-risk KDE), and asks whether socioeconomic and WASH determinants predict documented NTD endemicity — the socioeconomic layer absent from prior Ghana NTD risk mapping. Findings are framed as a **gradient of WASH/poverty dependence** (direct for trachoma/yaws, poverty-correlated for onchocerciasis, environmental for Buruli ulcer).
@@ -86,7 +86,7 @@ Code: MIT. Data/derived outputs: CC-BY-4.0. See `LICENSE`.
 
 ## 13. Author & Contact
 **Valentine Golden Ghanem**
-Ghana COCOBOD Cocoa Clinic, Accra, Ghana; University of Cape Coast (PhD candidate)
+Ghana COCOBOD Cocoa Clinic, Accra, Ghana
 Email: valentineghanem@gmail.com
 ORCID: [0009-0002-8332-0220](https://orcid.org/0009-0002-8332-0220)
 

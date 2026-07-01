@@ -5,7 +5,9 @@ type: software
 authors:
   - given-names: "Valentine Golden"
     family-names: "Ghanem"
-    affiliation: "COCOBOD / University of Cape Coast, Ghana"
+    affiliation: "Ghana COCOBOD Cocoa Clinic, Accra, Ghana; University of Cape Coast"
+    orcid: "https://orcid.org/0009-0002-8332-0220"
+    email: "valentineghanem@gmail.com"
 repository-code: "https://github.com/valentineghanem-bit/ntd-wash-poverty-nexus-ghana"
 license: MIT
 keywords: [neglected tropical diseases, WASH, poverty, spatial epidemiology, LISA, machine learning, Ghana]

@@ -14,7 +14,7 @@ CAVEAT = ('<div style="margin:14px auto;max-width:1100px;padding:12px 16px;borde
  'poverty-associated but vector/riverine-driven; Buruli ulcer is an environmental exception outside the '
  'poverty belt.</div>')
 
-for f in ["dashboard/dashboard.html","poster/poster.html"]:
+for f in ["dashboard/NTD_WASH_Poverty_Ghana_Dashboard.html","poster/NTD_WASH_Poverty_Ghana_Poster.html"]:
     if not os.path.exists(f): continue
     h=open(f,encoding="utf-8").read()
     if "ecological receptivity surface — not observed" in h:

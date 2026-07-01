@@ -5,3 +5,5 @@ outputs/** linguist-generated
 data/raw/** linguist-vendored
 *.md linguist-documentation
 *.csv linguist-detectable=false
+*.yml text eol=lf
+*.yaml text eol=lf

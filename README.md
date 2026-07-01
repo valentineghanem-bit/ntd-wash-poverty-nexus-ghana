@@ -95,7 +95,7 @@ All inputs are public and de-identified; the linked analytical dataset is includ
 ```bash
 pip install -r requirements.txt          # CI-installable (Python 3.11+)
 bash run_all.sh                          # build masters → anchor → dictionary → spatial → ML → robustness → Table 1
-python qa/q1_gate.py                     # 19-check manuscript Q1 gate
+python qa/q1_gate.py                     # 19-check Q1 deliverable gate
 python qa/qa_6pass.py                    # 6-pass QA
 pytest tests/ -v                          # 8 dataset-integrity tests
 ```
